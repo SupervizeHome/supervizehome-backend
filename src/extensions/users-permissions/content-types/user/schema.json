@@ -78,6 +78,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::report.report"
+    },
+    "project": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::project.project",
+      "inversedBy": "project_artisans"
     }
   }
 }
