@@ -12,25 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Start_Date": {
+    "start_date": {
       "type": "date"
     },
-    "End_Date": {
+    "end_date": {
       "type": "date"
     },
-    "Location": {
+    "location": {
       "type": "string"
     },
-    "Reports": {
+    "reports": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::report.report",
       "mappedBy": "project"
     },
-    "Project_owner": {
+    "project_owner": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"

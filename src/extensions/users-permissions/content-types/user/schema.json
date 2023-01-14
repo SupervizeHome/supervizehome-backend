@@ -63,10 +63,10 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "Address": {
+    "address": {
       "type": "text"
     },
-    "Profession": {
+    "profession": {
       "type": "string"
     },
     "projects": {
@@ -84,6 +84,12 @@
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "project_artisans"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }
