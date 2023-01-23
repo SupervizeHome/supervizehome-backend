@@ -32,9 +32,6 @@
     "start_date": {
       "type": "date"
     },
-    "end_date": {
-      "type": "date"
-    },
     "report_type": {
       "type": "enumeration",
       "enum": [
@@ -45,7 +42,7 @@
     "favorite": {
       "type": "boolean"
     },
-    "steps": {
+    "step": {
       "type": "enumeration",
       "enum": [
         "Indoor finishing work",
