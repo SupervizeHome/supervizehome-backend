@@ -93,6 +93,14 @@
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "project_artisans"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "client",
+        "artisan"
+      ],
+      "required": true
     }
   }
 }
