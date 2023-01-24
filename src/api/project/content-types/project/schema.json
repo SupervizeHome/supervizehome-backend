@@ -21,17 +21,6 @@
     "location": {
       "type": "string"
     },
-    "reports": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::report.report",
-      "mappedBy": "project"
-    },
-    "project_owner": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -49,11 +38,23 @@
     "houseArea": {
       "type": "decimal"
     },
-    "project_artisans": {
+    "reports": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "plugin::users-permissions.user",
+      "target": "api::report.report",
       "mappedBy": "project"
+    },
+    "user_client": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "projects_clients"
+    },
+    "users_artisans": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "projects_artisans"
     }
   }
 }

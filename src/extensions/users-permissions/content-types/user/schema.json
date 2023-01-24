@@ -69,16 +69,6 @@
     "job": {
       "type": "string"
     },
-    "projects": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project"
-    },
-    "reports": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::report.report"
-    },
     "firstName": {
       "type": "string"
     },
@@ -88,11 +78,23 @@
     "tel": {
       "type": "integer"
     },
-    "project": {
+    "projects_clients": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::project.project",
-      "inversedBy": "project_artisans"
+      "mappedBy": "user_client"
+    },
+    "projects_artisans": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "users_artisans"
+    },
+    "reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::report.report",
+      "mappedBy": "user"
     }
   }
 }
