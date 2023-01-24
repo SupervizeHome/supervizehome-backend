@@ -94,15 +94,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::report.report",
-      "mappedBy": "user",
-      "inversedBy": "project_artisans"
+      "mappedBy": "user"
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "client",
-        "artisan"
-      ],
+      "enum": ["client", "artisan"],
       "required": true
     }
   }
