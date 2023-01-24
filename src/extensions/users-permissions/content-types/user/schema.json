@@ -70,10 +70,12 @@
       "type": "string"
     },
     "firstName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lastName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tel": {
       "type": "integer"
@@ -98,7 +100,10 @@
     },
     "type": {
       "type": "enumeration",
-      "enum": ["client", "artisan"],
+      "enum": [
+        "client",
+        "artisan"
+      ],
       "required": true
     }
   }

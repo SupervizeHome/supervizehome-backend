@@ -13,13 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "start_date": {
       "type": "date"
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cover": {
       "type": "media",
@@ -33,7 +35,8 @@
       ]
     },
     "landArea": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": false
     },
     "houseArea": {
       "type": "decimal"

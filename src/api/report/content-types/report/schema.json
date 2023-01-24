@@ -13,12 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
-    "image": {
+    "images": {
       "type": "media",
       "multiple": true,
       "required": false,
