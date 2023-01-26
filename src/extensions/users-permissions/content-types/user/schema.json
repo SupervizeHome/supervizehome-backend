@@ -63,9 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "address": {
-      "type": "text"
-    },
     "job": {
       "type": "string"
     },
@@ -76,9 +73,6 @@
     "lastName": {
       "type": "string",
       "required": true
-    },
-    "tel": {
-      "type": "integer"
     },
     "projects_clients": {
       "type": "relation",
@@ -105,6 +99,9 @@
         "artisan"
       ],
       "required": true
+    },
+    "tel": {
+      "type": "string"
     }
   }
 }
