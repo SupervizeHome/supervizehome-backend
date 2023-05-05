@@ -65,15 +65,12 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "reports"
     },
-    "Images": {
+    "files": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "files"
       ]
     }
   }
