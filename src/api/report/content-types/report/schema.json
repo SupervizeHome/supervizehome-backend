@@ -41,17 +41,6 @@
     "favorite": {
       "type": "boolean"
     },
-    "step": {
-      "type": "enumeration",
-      "enum": [
-        "travaux de finition intérieure",
-        "gros œuvre",
-        "second œuvre",
-        "finition",
-        "conception extérieure",
-        "réception des clés"
-      ]
-    },
     "project": {
       "type": "relation",
       "relation": "manyToOne",
@@ -71,6 +60,9 @@
       "allowedTypes": [
         "files"
       ]
+    },
+    "step": {
+      "type": "string"
     }
   }
 }

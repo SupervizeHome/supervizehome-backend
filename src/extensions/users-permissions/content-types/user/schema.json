@@ -102,21 +102,6 @@
     },
     "tel": {
       "type": "string"
-    },
-    "Profession": {
-      "type": "enumeration",
-      "enum": [
-        "Coordinateur",
-        "Peintre",
-        "Serrurier",
-        "Chauffagiste",
-        "Couvreur",
-        "Maçon",
-        "Plombier",
-        "Electricien",
-        "Architecte",
-        "Autre"
-      ]
     }
   }
 }
