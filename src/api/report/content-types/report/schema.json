@@ -44,13 +44,12 @@
     "step": {
       "type": "enumeration",
       "enum": [
-        "Indoor finishing work",
-        "structural work",
-        "finishing touches",
+        "travaux de finition intérieure",
+        "gros œuvre",
+        "second œuvre",
         "finition",
-        "outdoor design",
-        "key reception",
-        "house delivery"
+        "conception extérieure",
+        "réception des clés"
       ]
     },
     "project": {
