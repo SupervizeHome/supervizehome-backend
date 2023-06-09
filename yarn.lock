@@ -1116,6 +1116,11 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz"
   "version" "0.3.0"
 
+"@exfabrica/strapi-plugin-awesome-help@^1.0.8":
+  "integrity" "sha512-wfT1vieSEbfFUxJQG+JWUaXzc7LxG23ASdhGwO2soxyu56Fdv9E/kZYw4wl6A3WdmLsAQ8ICZrNI7AmSxc04eg=="
+  "resolved" "https://registry.npmjs.org/@exfabrica/strapi-plugin-awesome-help/-/strapi-plugin-awesome-help-1.0.8.tgz"
+  "version" "1.0.8"
+
 "@fingerprintjs/fingerprintjs@3.3.3":
   "integrity" "sha512-HH6KqZnopF3NIXypYG4f2qxoSRmGCSzp81wJMfWjSTtvsX3cAg12RFJcm+a6Az3XadcZUrXKW3p5Dv0wyCUeuA=="
   "resolved" "https://registry.npmjs.org/@fingerprintjs/fingerprintjs/-/fingerprintjs-3.3.3.tgz"
@@ -1863,7 +1868,7 @@
     "@strapi/utils" "4.5.4"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.4":
+"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.4":
   "integrity" "sha512-u0yYIJ//OdMUs2eG77oHJqKcyEkkljWiROhf2xPSyy/hLYQ+hjiLzjCqOv+NQaKFrSthkqAuzJdB7lPRV8hS8Q=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.5.4.tgz"
   "version" "4.5.4"
