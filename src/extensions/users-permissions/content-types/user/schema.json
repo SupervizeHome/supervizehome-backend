@@ -102,6 +102,20 @@
     },
     "tel": {
       "type": "string"
+    },
+    "Profession": {
+      "type": "enumeration",
+      "enum": [
+        "Coordinator",
+        "Painter",
+        "Locksmith",
+        "Heating engineer",
+        "Roofer",
+        "Mason",
+        "Plumber",
+        "Electrician",
+        "Architect"
+      ]
     }
   }
 }
