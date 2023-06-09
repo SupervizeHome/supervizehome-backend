@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-    // Autres configurations de plugins existants...
     upload: {
       provider: 'cloudinary',
       providerOptions: {
@@ -7,5 +6,10 @@ module.exports = ({ env }) => ({
         api_key: env('CLOUDINARY_KEY'),
         api_secret: env('CLOUDINARY_SECRET'),
       },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
+      }
     },
   });
