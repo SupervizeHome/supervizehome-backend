@@ -15,8 +15,8 @@ module.exports = [
           useDefaults: true,
           directives: {
             'connect-src': ["'self'", 'https:'],
-            'img-src': ["'self'", 'data:', 'blob:', 'https://res.cloudinary.com/dizcasdok'],
-            'media-src': ["'self'", 'data:', 'blob:', 'https://res.cloudinary.com/dizcasdok'],
+            'img-src': ["'self'", 'data:', 'blob:','https://fast-citadel-34836.herokuapp.com/', 'https://res.cloudinary.com/dizcasdok'],
+            'media-src': ["'self'", 'data:', 'blob:','https://fast-citadel-34836.herokuapp.com/', 'https://res.cloudinary.com/dizcasdok'],
             upgradeInsecureRequests: null,
           },
         },
